@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Side Bar</title>
+    
+
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxl-product-hunt'></i>
+            <div class="logo_name">PMIS</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <div>
+            <ul class="nav_list">
+
+
+             <li>    
+               
+                    <i class='bx bx-search' ></i>
+                   <input type="text" placeholder="search...">
+                
+                   <span class="tooltip">search</span> 
+                
+            </li>
+
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                 <span class="tooltip">Dashboard</span> 
+                
+            </li>
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-group'></i>
+                    <span class="links_name">Team</span>
+                </a>
+                 <span class="tooltip">Team</span> 
+                
+            </li>
+
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-chat'></i>
+                    <span class="links_name">Massage</span>
+                </a>
+                 <span class="tooltip">Massage</span> 
+                
+            </li>
+
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-notepad'></i>
+                    <span class="links_name">Project Stream</span>
+                </a>
+                <span class="tooltip">Project Stream</span> 
+                
+            </li>
+
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-paper-plane'></i>
+                    <span class="links_name">Followup</span>
+                </a>
+                <span class="tooltip">Followup</span> 
+                
+            </li>
+
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-pencil' ></i>
+                    <span class="links_name">Tasks</span>
+                </a>
+                 <span class="tooltip">Tasks</span>
+                
+            </li>
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-paper-plane'></i>
+                    <span class="links_name">Title Defense</span>
+                </a>
+                <span class="tooltip">Title Defense</span> 
+                
+                
+            </li>
+
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-paper-plane'></i>
+                    <span class="links_name">Pre Defense</span>
+                </a>
+                 <span class="tooltip">Pre Defense</span> 
+                
+            </li>
+
+
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-paper-plane'></i>
+                    <span class="links_name">Final Defense</span>
+                </a>
+                 <span class="tooltip">Final Defense</span> 
+                
+            </li>
+
+
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-download'></i>
+                    <span class="links_name">Downloads</span>
+                </a>
+              <span class="tooltip">Downloads</span> 
+                
+            </li>
+
+
+
+            <li>    
+                <a href="#">
+                    <i class='bx bx-user-voice'></i>
+                    <span class="links_name">Help Center</span>
+                </a>
+                <span class="tooltip">Help Center</span>
+                
+            </li>
+
+
+            
+            <li>    
+                <a href="#">
+                    <i class='bx bx-link-external'></i>
+                    <span class="links_name">PIC Google Site</span>
+                </a>
+                 <span class="tooltip">PIC Google Site</span> 
+            </li>
+
+            
+            <li>    
+                <a href="#">
+                    <i class='bx bx-group'></i>
+                    <span class="links_name">Intern Committee</span>
+                </a>
+              <span class="tooltip">Intern Committee</span> 
+                
+            </li>
+            
+            
+
+            
+            <li>    
+                <a href="#">
+                    <i class='bx bx-user-voice'></i>
+                    <span class="links_name"> Technical Committee</span>
+                </a>
+                 <span class="tooltip">Technical Committee</span> 
+                
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="home_content">
+        <div class="text">Dashboard</div>
+        <div>
+
+          
+
+
+
+        </div>
+    </div>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
+
+          btn.onclick = function() {
+          sidebar.classList.toggle("active");}
+
+          
+          searchBtn.onclick = function() {
+          sidebar.classList.toggle("active");}
+    </script>
+
+</body>
+</html>
